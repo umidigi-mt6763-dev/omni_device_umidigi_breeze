@@ -18,7 +18,7 @@ $(call inherit-product, device/umidigi/breeze/device.mk)
 PRODUCT_DEVICE := breeze
 PRODUCT_NAME := omni_breeze
 PRODUCT_BRAND := UMIDIGI
-PRODUCT_MODEL := A5_Pro
+PRODUCT_MODEL := breeze
 PRODUCT_MANUFACTURER := umidigi
 
 PRODUCT_GMS_CLIENTID_BASE := android-agold
