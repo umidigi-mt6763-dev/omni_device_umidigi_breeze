@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=A5_Pro
+DEVICE=breeze
 VENDOR=umidigi
 
 # Load extract_utils and do some sanity checks

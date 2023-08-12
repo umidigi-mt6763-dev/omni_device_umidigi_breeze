@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_A5_Pro.mk
+    $(LOCAL_DIR)/omni_breeze.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_A5_Pro-user \
-    omni_A5_Pro-userdebug \
-    omni_A5_Pro-eng
+    omni_breeze-user \
+    omni_breeze-userdebug \
+    omni_breeze-eng

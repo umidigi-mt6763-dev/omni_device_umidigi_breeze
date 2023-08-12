@@ -5,4 +5,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/umidigi/A5_Pro
+LOCAL_PATH := device/umidigi/breeze

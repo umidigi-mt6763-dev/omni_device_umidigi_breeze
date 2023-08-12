@@ -12,11 +12,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
-# Inherit from A5_Pro device
-$(call inherit-product, device/umidigi/A5_Pro/device.mk)
+# Inherit from breeze device
+$(call inherit-product, device/umidigi/breeze/device.mk)
 
-PRODUCT_DEVICE := A5_Pro
-PRODUCT_NAME := omni_A5_Pro
+PRODUCT_DEVICE := breeze
+PRODUCT_NAME := omni_breeze
 PRODUCT_BRAND := UMIDIGI
 PRODUCT_MODEL := A5_Pro
 PRODUCT_MANUFACTURER := umidigi

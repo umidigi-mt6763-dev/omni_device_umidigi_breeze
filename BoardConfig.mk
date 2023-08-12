@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/umidigi/A5_Pro
+DEVICE_PATH := device/umidigi/breeze
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -47,8 +47,8 @@ BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_KERNEL_SEPARATED_DTBO := true
-TARGET_KERNEL_CONFIG := A5_Pro_defconfig
-TARGET_KERNEL_SOURCE := kernel/umidigi/A5_Pro
+TARGET_KERNEL_CONFIG := breeze_defconfig
+TARGET_KERNEL_SOURCE := kernel/umidigi/breeze
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
