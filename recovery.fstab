@@ -6,8 +6,6 @@
 /mnt/vendor/protect_s     ext4     /dev/block/platform/bootdevice/by-name/protect2      flags=display=protect_s
 /mnt/vendor/nvdata        ext4     /dev/block/platform/bootdevice/by-name/nvdata        flags=display=nvdata
 /mnt/vendor/nvcfg         ext4     /dev/block/platform/bootdevice/by-name/nvcfg         flags=display=nvcfg
-auto                      auto     /devices/platform/externdevice*                      flags=display=auto
-auto                      vfat     /devices/platform/mt_usb*                            flags=display=auto
 /persistent               emmc     /dev/block/platform/bootdevice/by-name/frp           flags=display=persistent
 /nvram                    emmc     /dev/block/platform/bootdevice/by-name/nvram         flags=display=nvram
 /proinfo                  emmc     /dev/block/platform/bootdevice/by-name/proinfo       flags=display=proinfo
@@ -33,3 +31,6 @@ auto                      vfat     /devices/platform/mt_usb*                    
 /boot_para                emmc     /dev/block/platform/bootdevice/by-name/boot_para     flags=display=boot_para
 /odmdtbo                  emmc     /dev/block/platform/bootdevice/by-name/odmdtbo       flags=display=odmdtbo
 /dtbo                     emmc     /dev/block/platform/bootdevice/by-name/dtbo          flags=display=dtbo
+
+/external_sd	          auto	   /dev/block/mmcblk1p1	/dev/block/mmcblk1	flags=display="External SDcard";storage;wipeingui;removable;backup=0
+/usbotg		              auto     /dev/block/sda1		/dev/block/sda		flags=display="Usb-Otg";storage;wipeingui;removable;backup=0
