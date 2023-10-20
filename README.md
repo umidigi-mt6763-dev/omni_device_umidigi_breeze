@@ -1,4 +1,4 @@
-Device tree for the UMIDIGI A5 Pro (A5_Pro)
+Device tree for the UMIDIGI A5 Pro (breeze)
 =================================================
 
 The UMIDIGI A5 Pro (codenamed _"breeze"_) this is a budget-class smartphone from UMIDIGI.
